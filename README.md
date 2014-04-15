@@ -1,11 +1,11 @@
 * What is in this directory? 
 
-  README           this file
-  mailclient.c     contains source code of mail client
-  mailserver.c     contains source code of mail server
-  mailutils .c     routines used by server and client
-  common.h         header file included by all .c files
-  makefile         make file to build mailserver and mailclient
+  * README           this file
+  * mailclient.c     contains source code of mail client
+  * mailserver.c     contains source code of mail server
+  * mailutils .c     routines used by server and client
+  * common.h         header file included by all .c files
+  * makefile         make file to build mailserver and mailclient
 
 * How do i compile my programs? 
 
@@ -46,12 +46,10 @@
 * How do i exit from these programs? 
 
   In  case of  client, you can exit by send 'close' command.
-
   In case of server, you can just press Ctrl-C to kill it. 
 
 * Do these programs run on any machine? 
 
-  They are compiled on thor.vse.gmu.edu, zeus.vse.gmu.edu. They will
-  work on any 32-bit and 64-bit Linux machines. No warranty is given for
+  They are compiled and will work on any 32-bit and 64-bit Linux machines. No warranty is given for
   other kinds of machines.
   
