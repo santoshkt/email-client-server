@@ -25,7 +25,7 @@
   The 'mailclient' program takes the username, ip adress and port no in
   following format.
 
-    % mailclient <user>@<ip-addr> <port>
+    % mailclient \<user\>@\<ip-addr\> \<port\>
 
   You run the server first and then many clients. Once the clients are
   connected, you can give list command on server to see list of members
@@ -36,14 +36,14 @@
   
   You can send an email to user with ip-address in following format
   
-  	% <user>@<ip-addr> <message>
+  	% \<user\>@\<ip-addr\> \<message\>
   	
   username cannot ocntain spaces. IP address should be in valid IP4
   format. Message cannot be longer than 80 characters. user will receive
   this message when logs into a machine with the ip-address mentioned
   only.
 
-* How do i exit from these programs? 
+* How do I exit from these programs? 
 
   In  case of  client, you can exit by send 'close' command.
   In case of server, you can just press Ctrl-C to kill it. 
